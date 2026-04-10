@@ -1,0 +1,76 @@
+body {
+    background-color: #ff00ff;
+    color: #00ff00; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+    padding: 30px;
+    border: 30px inset #ffff00;
+}
+
+#gran-titulo {
+    background-color: #0000ff; 
+    color: #ffffff; 
+    font-size: 50px;
+    text-align: center;
+    border: 10px dashed red;
+    padding: 20px;
+}
+
+h2 {
+    background-color: black;
+    color: yellow;
+    text-decoration: underline overline;
+}
+
+.tarjeta-fea {
+    background-color: #ffffff; 
+    color: #00008b;
+    border: 10px double orange;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tarjeta-css {
+    background-color: #00ffff; 
+    color: #ff4500; 
+    border: 8px ridge #800080; 
+    margin: 20px;
+    padding: 20px;
+}
+
+table {
+    background-color: yellow;
+    color: red;
+    border: 5px solid black;
+    width: 100%;
+}
+
+th, td {
+    border: 3px dotted blue;
+    padding: 10px;
+}
+
+.caja-ejemplo {
+    background-color: lime;
+    color: black;
+    border: 15px solid purple;
+    padding: 40px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.cita {
+    font-size: 11px;
+    color: white;
+    background-color: #333;
+    width: fit-content;
+}
+
+ul {
+    background-color: #ffc0cb;
+    border: 2px solid green;
+}
+
+hr {
+    border: 15px solid white;
+}
