@@ -1,0 +1,224 @@
+.temas ul {
+  list-style-type: none;    
+  padding: 0;               
+  margin: 0;
+  display: flex;            /*Pone los elementos en fila */
+  justify-content: center;  /*centra todo horizontalmente */
+  gap: 20px;              
+  font-family: sans-serif;
+}
+
+.temas li {
+  padding: 10px 15px;       /*parezcan botones */
+  color: #004d61;           
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;       /*Bordes*/
+  transition: background 0.3s;
+}
+
+/*Efecto gris clarito al pasar el mouse */
+.temas li:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* centra todo el bloque de búsqueda */
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.search form {
+  display: flex; /*input y boton en una línea */
+}
+
+/* Estilo de texto */
+#site-search {
+  width: 450px;            
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;   
+  border-right: none;       
+  border-radius: 4px 0 0 4px; 
+  outline: none;           
+}
+
+/* El contenedor debe ser 'relative' para que el botón se pegue*/
+.search-container {
+  position: relative;
+  width: 500px; 
+  margin: 40px auto;
+}
+
+#site-search {
+  width: 100%;
+  padding: 12px 45px 12px 15px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box; 
+}
+
+/*el botón flota*/
+.search-button {
+  position: absolute;
+  right: 10px;   
+  top: 50%;      
+  transform: translateY(-50%); 
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/*tamaño de lupa*/
+.search-button img {
+  width: 20px;
+  height: auto;
+  opacity: 0.7; 
+}
+
+/*efecto de click de lupa */
+.search-button:hover img {
+  opacity: 1; 
+  transform: scale(1.1); /* Crece un poco */
+  transition: all 0.2s;
+}
+
+.search-button:active img {
+  transform: scale(0.9);
+}
+
+/* imagenes en fila*/
+.featured-container {
+  display: flex;
+  justify-content: center; /* Centra las tarjetas */
+  gap: 20px;               /* Espacio entre tarjetas */
+  padding: 20px;
+  flex-wrap: wrap;         
+}
+
+/* Estilo de cada tarjeta individual */
+.card {
+  width: 320px;            /* Ancho fijo para que todas sean iguales */
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;       
+  display: flex;
+  flex-direction: column;  /*  texto abajo de la imagen */
+  text-align: left;       
+  background: white;
+}
+
+.card img {
+  width: 100%;             
+  height: 200px;          
+  object-fit: cover;       
+}
+
+.card-content {
+  padding: 15px;
+  position: relative;
+  flex-grow: 1;            
+}
+
+.card h3 {
+  color: #004d61;
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+.card .date {
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 10px;
+  text-align: right;      
+}
+
+.main-header {
+  display: flex;
+  align-items: center;         
+  justify-content: space-between; 
+  padding: 10px 40px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  font-family: sans-serif;
+}
+
+/* Logo */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 50px; 
+  width: auto;
+}
+
+.site-title {
+  font-size: 28px;
+  color: #004d61;
+  font-weight: bold;
+}
+
+/* Menú central */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  color: #555;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Botones de la derecha */
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-donate, .btn-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-donate {
+  background-color: #e32b21; 
+}
+
+.btn-submit {
+  background-color: #5a737e;
+}
+
+h2 {
+  text-align: left;      
+  margin-left: 5%;       
+  color: #004d61;        
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;   
+}
+
